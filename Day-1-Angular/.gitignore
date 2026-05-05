@@ -1,0 +1,73 @@
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+/build
+
+# Dependencies
+/node_modules
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Angular cache
+/.angular/cache
+
+# Environment files (IMPORTANT)
+src/environments/*.local.ts
+src/environments/environment*.ts
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+.settings/
+*.launch
+*.sublime-workspace
+*.swp
+*.swo
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/mcp.json
+
+# History
+.history/
+
+# Testing / Coverage
+/coverage
+testem.log
+__screenshots__/
+*.lcov
+
+# Temporary files
+.sass-cache/
+/connect.lock
+/libpeerconnection.log
+/typings
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Optional package manager files
+.pnpm-store
+.npm
+
+# Misc
+.cache/
