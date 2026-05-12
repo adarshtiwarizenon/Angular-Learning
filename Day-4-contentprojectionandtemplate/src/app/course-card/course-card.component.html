@@ -9,10 +9,10 @@
     <img src="/assets/empty-image.png" />
   </ng-template> -->
 
-  <ng-content select="course-image" *ngIf="course.iconUrl; else noImage">
+  <ng-content select="course-image" *ngIf="course.iconUrl; else NoImage">
   </ng-content>
 
-  <ng-template #noImage>
+  <ng-template #NoImage>
   <ngcontainer  *ngTemplateOutlet="noImageTpl; context: { description: course.description }">
     </ng-template>ng-template>
    

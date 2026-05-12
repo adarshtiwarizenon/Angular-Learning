@@ -1,0 +1,45 @@
+
+.course-card.beginner {
+    background: lightsalmon;
+}
+
+
+:host {
+    display: block;
+}
+
+:host.is-first {
+    border-top: 2px solid grey;
+    padding-top: 20px;
+}
+
+:host.is-last {
+    border-bottom: 2px solid grey;
+    padding-top: 20px;
+}
+
+:host.is-even {
+    background: lightgray;
+}
+
+
+:host.is-odd {
+    background: lightcyan;
+}
+
+
+
+
+.course-card ::ng-deep .course-description {
+    max-width: 360px;
+    margin: 0 auto;
+    margin-top: 15px;
+  user-select: none;
+}
+
+
+
+
+:host-context(.salmon-theme) .course-card {
+  background: lightsalmon;
+}
