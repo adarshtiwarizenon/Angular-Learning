@@ -1,0 +1,17 @@
+<div class="top-menu">
+  <img
+    class="logo"
+    src="https://angular-academy.s3.amazonaws.com/main-logo/main-page-logo-small-hat.png"
+  />
+</div>
+
+<div>
+  <div class="courses">
+    <div>Counter value: {{ counterService.counter() }}</div>
+
+    <div>Derived Value: {{ derivedCounter() }}</div>
+
+    <button (click)="increment()">Increment</button>
+
+  </div>
+</div>
